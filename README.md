@@ -3,7 +3,7 @@
 # MODEL_PATH ( internal storage ) :
  
    private static String MODEL_PATH = Environment.getExternalStorageDirectory().toString()+"/SENTIMENT_DATA/";
-   /*Trained model*/
+   Trained model File :
    private static String ModelFile = "Sentiment.text";  
  
 # Training data path  :
