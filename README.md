@@ -21,3 +21,7 @@
 # Testing API : checkUnlabeledData(String rawText)
 # Use high end device : Samsung Galaxy S7 and above
 # OnDevice WordVector : https://github.com/vijay033/Deeplearning4j
+# Other use cases : 
+(a) Message Classification on mobile phone
+(b) Quotes Classification
+(d) Document Types classification 
