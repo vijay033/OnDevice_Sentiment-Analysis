@@ -3,18 +3,24 @@
 # MODEL_PATH ( internal storage ) :
 
    private static String MODEL_PATH = Environment.getExternalStorageDirectory().toString()+"/SENTIMENT_DATA/";
+   
    Trained model File :
+   
    private static String ModelFile = "Sentiment.text";  
  
 # Training data path :
 
    private static String TRAINING_DATA_PATH = Environment.getExternalStorageDirectory().toString()+"/SENTIMENT_DATA/training/";
+   
    training/POS/pos.txt (create POS folder and keep pos.txt at SENTIMENT_DATA)
+   
    training/NEG/neg.txt (create NEG folder and keep neg.txt at SENTIMENT_DATA)
   
 # Testing data path :
    private static String TESTING_DATA_PATH = Environment.getExternalStorageDirectory().toString()+"/SENTIMENT_DATA/testing/";
+   
    testing/POS/pos.txt
+   
    testing/NEG/neg.txt
    
 # checkUnlabeledData() API helps in cross validation for /testing/ path 
