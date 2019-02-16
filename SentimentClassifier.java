@@ -75,7 +75,7 @@ public class SentimentClassifier {
         modelsavedfile = new File(MODEL_PATH+File.separator+ModelFile);
         if(!modelsavedfile.exists()){
             modelsavedfile.createNewFile();
-            status = true; /*Training required for with sentiment data*/
+            status = true; /*Training required for sentiment data*/
         }
 
         if(status){
